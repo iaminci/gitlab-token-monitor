@@ -153,7 +153,7 @@ class EmailReporter:
             html += f'''
             <div class="section">
                 <details class="collapsible">
-                    <summary>✅ Healthy Tokens ({stats['healthy_count']}) - Click to expand</summary>
+                    <summary>✅ Healthy Tokens ({stats['healthy_count']})</summary>
                     <div class="token-type">
             '''
             
@@ -169,7 +169,7 @@ class EmailReporter:
             html += f'''
             <div class="section">
                 <details class="collapsible">
-                    <summary>♾️ Tokens with No Expiration ({stats['permanent_count']}) - Click to expand</summary>
+                    <summary>♾️ Tokens with No Expiration ({stats['permanent_count']})</summary>
                     <div class="token-type">
             '''
             
