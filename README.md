@@ -99,12 +99,6 @@ The system generates comprehensive HTML email reports with:
 - **🟠 Expiring soon** (within threshold days)
 - **Complete token details** with user/project/group info
 
-### Collapsible Sections
-
-- **✅ Healthy tokens** (expires beyond threshold)
-- **♾️ Permanent tokens** (no expiration date)
-- **Click to expand/collapse** for better readability
-
 ### Token Information Included
 
 - **Personal tokens:** User, email, scopes, expiration
